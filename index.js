@@ -27,7 +27,7 @@ updatePageNumber();
 });
 const url = "https://newsapi.org/v2/top-headlines?country=in&apiKey=14fd34af35fe4493b10114972dcc064b&pagesize=10&page=3";
 const options = {
-
+    'Content-Type': 'application/json'
 }
 const output = callAPI(url,options);
 output.then(function(data){
