@@ -59,6 +59,10 @@
   top: 10px;
   right: 10px;
   cursor: pointer;
+  &:hover
+  {
+    color: yellow;
+  }
 }
 
 /* Styling for the iframe */
