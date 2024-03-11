@@ -55,7 +55,9 @@
   white-space: normal;
   text-overflow: none;
 }
-
+.popup.show ~ .parent {
+  filter: blur(5px);
+}
 /* Styling for the close button */
 .close {
   position: absolute;

@@ -215,11 +215,9 @@ function renderArticle(article) {
     popup.appendChild(h2);
     const p = document.createElement("p");
     p.innerText = article.content;
-    console.log(article);
     popup.appendChild(p);
     carding.appendChild(popup);
     carding.appendChild(card);
     return carding;
 }
-
 renderUI(data);
